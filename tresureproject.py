@@ -1,5 +1,5 @@
 print("welcome to treasure island.")
-print("your mission is to fond the treasure.")
+print("your mission is to find the treasure.")
 choice1=input('you\'re at a crossroad, where do you want to go?type"left"or "right".').lower()
 if choice1 == "left":
     #continue
@@ -14,7 +14,7 @@ if choice1 == "left":
         if choice4=="jar1":
             print("you have got bitten from a dangerous snake.game over")
         elif choice4=="jar2":
-            print("you foun out the key .pass through the door.you may find the tresure in it ")
+            print("you found out the key .pass through the door.you may find the tresure in it ")
             print("hurray!!!!!!!you found out the treasure!!!")   
         elif choice3=="blue":
             print("you enter into a room  of dangerous chemicals that fell on you.game over ")
